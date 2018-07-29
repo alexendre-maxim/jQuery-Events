@@ -1,0 +1,67 @@
+table{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table tr th, table tr td{
+    padding: 10px 30px;
+}
+
+.tdImg1,
+.tdImg2{
+    width: 100px;
+    height: 100px;
+    background: url('../img/4.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+table button{
+    border: 1px solid #757575;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.listTest1,
+.listTest2{
+    list-style: none;
+    margin-left: 0px;
+    border: 1px solid #757575;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+.lists > div{
+    float: left;
+    width: 33,33%;
+}
+
+.overley1,.overley2{
+    background-color: rgba(5,5,5,0.7);
+    height: 100%;
+    color:#fff;
+    font-family: arial;
+    margin-top: -12px;
+    display: none;
+    
+}
+
+.overley1 h3,
+.overley2 h3{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+
+.overley1 p,
+.overley2 p{
+    font-size: 12px;
+}
