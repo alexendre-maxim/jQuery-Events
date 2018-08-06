@@ -1,0 +1,16 @@
+table{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table tr th,table tr td{
+    padding: 10px 30px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+.focusInput{
+    width: 50px;
+}
